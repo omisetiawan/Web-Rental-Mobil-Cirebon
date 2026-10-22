@@ -14,42 +14,34 @@ jobs:
       - name: 🚚 1. Checkout Code
         uses: actions/checkout@v4
 
-      - name: 🐘 2. Setup PHP 8.2
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.2'
-          extensions: mbstring, xml, ctype, iconv, intl, pdo_mysql, bcmath, gd, zip
-          coverage: none
-
-      - name: 📦 3. Install Composer Dependencies (Production)
-        run: composer install --no-dev --prefer-dist --optimize-autoloader --no-interaction
-
-      - name: 🟢 4. Setup Node.js 20
+      - name: 🟢 2. Setup Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
 
-      - name: 🛠️ 5. Build Frontend Assets (Vite)
+      - name: 🛠️ 3. Install & Build Frontend Assets (Vite)
         run: |
           npm install
           npm run build
 
-      - name: 📂 6. Sync Files to cPanel via FTP
+      - name: 📂 4. Sync Files to cPanel via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          # Jalur root di cPanel (sesuai direktori awal akun FTP)
-          server-dir: /
-          # Jangan upload file development dan file dinamis cPanel
+          # Jalur root cPanel (sesuai direktori public_html akun FTP kamu)
+          server-dir: /public_html/
+          # Kecualikan vendor & file dinamis agar upload cepat & stabil
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
+            **/vendor/**
             .env
             .env.example
+            .htaccess
             tests/**
             phpunit.xml
             README.md
