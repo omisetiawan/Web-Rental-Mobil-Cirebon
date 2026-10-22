@@ -1,0 +1,1291 @@
+{
+  "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+  "version": "1.0.0",
+  "generatedTime": 1792651250411,
+  "data": [
+    {
+      "type": "file",
+      "name": ".editorconfig",
+      "size": 252,
+      "hash": "f78cc5a2ef8ba61ad956d0f5db453748a981270f6a1b9f4a5a00df8690e7946d"
+    },
+    {
+      "type": "file",
+      "name": ".ftp-deploy-sync-state.json",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "type": "folder",
+      "name": "app"
+    },
+    {
+      "type": "folder",
+      "name": "app/Console"
+    },
+    {
+      "type": "folder",
+      "name": "app/Console/Commands"
+    },
+    {
+      "type": "file",
+      "name": "app/Console/Commands/GenerateSitemap.php",
+      "size": 3199,
+      "hash": "90bb68b667603c170bbbbf10f61c876822ccd155cbbebb51c65362037b3599f2"
+    },
+    {
+      "type": "folder",
+      "name": "app/Http"
+    },
+    {
+      "type": "folder",
+      "name": "app/Http/Controllers"
+    },
+    {
+      "type": "folder",
+      "name": "app/Http/Controllers/Admin"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Admin/BookingController.php",
+      "size": 15413,
+      "hash": "c3b9da06402255951ff857c647a05d6342db0770abe8ba4e80bddff19c517b39"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Admin/CarController.php",
+      "size": 22359,
+      "hash": "aa96305d516320bbb3d8c9e596edcae107b99249a8bc58d8774f59d52f04a8dc"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Admin/ContactController.php",
+      "size": 11093,
+      "hash": "47e44c21d98195fec053d4eddedef974252e5adc06531298aae405c74296adce"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Admin/DashboardController.php",
+      "size": 5392,
+      "hash": "82ad77bb055c93e8fd3252e6bfce23d941bb958ae5b580186f3f563a53905405"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Admin/PostController.php",
+      "size": 9063,
+      "hash": "0f630b70d6e39c5aa5baa954312292c3b7e3183c2613c39d2a471fa64927c74c"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Admin/ReportController.php",
+      "size": 16798,
+      "hash": "ed6dea4c3bbb30608661c7aa7b4b0e36823596de52f4ad31a05b8336fc9696eb"
+    },
+    {
+      "type": "folder",
+      "name": "app/Http/Controllers/Auth"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Auth/AuthenticatedSessionController.php",
+      "size": 1044,
+      "hash": "1f4905d02ea129d725f1fc18827d5b62f9c55b090f41a064400fac55833f2e19"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Auth/ConfirmablePasswordController.php",
+      "size": 1024,
+      "hash": "7322ce4e2ccdf76d1583cd84d27f5708436ffc91d7d00ee7abbde40f3e403ba7"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Auth/EmailVerificationNotificationController.php",
+      "size": 630,
+      "hash": "24d5704b7534ad365800a33e7c537bf63467f1271c4bc801b351c8a05a77e5b9"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Auth/EmailVerificationPromptController.php",
+      "size": 564,
+      "hash": "6b5b4b75fc25c43c1b31106f63f7b1f854b729527b2f5c067f122f4857f85e3a"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Auth/NewPasswordController.php",
+      "size": 2210,
+      "hash": "d8d196f78a9bd72e628a6b209a4d8189b686ed63953d3ca49237cc2ccd6c60da"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Auth/PasswordController.php",
+      "size": 795,
+      "hash": "81f68e0aa74f66038082364499dde9a1b1d93ca961448bd8b46bc77aa17117fd"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Auth/PasswordResetLinkController.php",
+      "size": 1311,
+      "hash": "1ab380b36e411252243f47fec550b992f50e1adb1fc7f116abf8e540d94cd30b"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Auth/RegisteredUserController.php",
+      "size": 1333,
+      "hash": "c7f2018c250a0ecee1dfd6fd0b91d66bcfb9d724b242bda36d046e4b0336e17b"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Auth/VerifyEmailController.php",
+      "size": 800,
+      "hash": "5f6080a239709740135d9138085ceb1857c5570a0fea35e62c976fc90929631e"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/BlogController.php",
+      "size": 3528,
+      "hash": "3c0a6f89065fa87e609fbd8fcfb1ace0afb331c522f3a752aae3e144cbee3bd2"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/ChatbotController.php",
+      "size": 11751,
+      "hash": "36ab7a239b0770702fb0f692393e15d4471ea6034b10babc26a02dfa41ced8b9"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/Controller.php",
+      "size": 77,
+      "hash": "25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/LandingController.php",
+      "size": 21336,
+      "hash": "df0e2f8031465bc960fe1c4ab7e6afb26d5a6271dce07930c3409f3eb07a9330"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/ProfileController.php",
+      "size": 1416,
+      "hash": "01586a456c9162ecf08234897b47ab29828e67b185e68983932ecc41a76ed355"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Controllers/SitemapController.php",
+      "size": 3167,
+      "hash": "08ab21b1fdafc7562979d219527ae7c38e1959ef9fe157b1ed2668fa4b371f1d"
+    },
+    {
+      "type": "folder",
+      "name": "app/Http/Middleware"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Middleware/AdminMiddleware.php",
+      "size": 1488,
+      "hash": "e1f45a66cf69f812664fcdf9d3490a5766ff381e3a325d14fd6d840f8ba7ea81"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Middleware/Authenticate.php",
+      "size": 283,
+      "hash": "b6bf1661e0c44fe52c1f226aeb119a4030065959a3bcb516cff51c4629cd8514"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Middleware/AutomaticSeoRobotsMiddleware.php",
+      "size": 1702,
+      "hash": "1d7a0864daa01e0ce9fd11d5247a039a55d73a7d6c17261efb358d1f27dee81e"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Middleware/EnsureRole.php",
+      "size": 1813,
+      "hash": "8c75aafade4c01713419f8f763d3adc0d2550da02e7401bd57cd082577f31674"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Middleware/LogoutAdminOnPublic.php",
+      "size": 838,
+      "hash": "1a9426841df7b4597019031d928e38e32896d32d700d0f54f1dfee84b050664a"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Middleware/RedirectIfAuthenticated.php",
+      "size": 846,
+      "hash": "52927525e7da6ec31077d59ce9a6e4aa05073f0a8e66ea2c033ebbf5b6a8f560"
+    },
+    {
+      "type": "folder",
+      "name": "app/Http/Requests"
+    },
+    {
+      "type": "folder",
+      "name": "app/Http/Requests/Auth"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Requests/Auth/LoginRequest.php",
+      "size": 2233,
+      "hash": "876169659c8421ca591fc7f62f4cb3a9d541580972ae6d3ac3dcd0727ec628ad"
+    },
+    {
+      "type": "file",
+      "name": "app/Http/Requests/ProfileUpdateRequest.php",
+      "size": 743,
+      "hash": "7d997e86d547969eb113f4d8d636b05a1baa3e0436964cc51a191c14fb38cdb7"
+    },
+    {
+      "type": "folder",
+      "name": "app/Models"
+    },
+    {
+      "type": "file",
+      "name": "app/Models/Booking.php",
+      "size": 3292,
+      "hash": "705ea9d9771a56703411c2025568a496cb0763102c727c44dd4b5e02758a379d"
+    },
+    {
+      "type": "file",
+      "name": "app/Models/Car.php",
+      "size": 13710,
+      "hash": "5b5c0c9490dcc369c996314fb067a2fd602b3d142d04c0a53052f232112b23c6"
+    },
+    {
+      "type": "file",
+      "name": "app/Models/Contact.php",
+      "size": 1805,
+      "hash": "88c542c5bce90a19a5f4d88ef4c1b75265700ea85bb343eab52067a626f4d7ab"
+    },
+    {
+      "type": "file",
+      "name": "app/Models/Post.php",
+      "size": 12203,
+      "hash": "73746cf8e7e6bab1fca29b2538c4f2deb9481a3b328d4ef015cd578aa4806457"
+    },
+    {
+      "type": "file",
+      "name": "app/Models/Role.php",
+      "size": 325,
+      "hash": "493eac17b118da83e21dc93d28b0d27f064b20a7eaef63aff441f2c6e4643056"
+    },
+    {
+      "type": "file",
+      "name": "app/Models/User.php",
+      "size": 1453,
+      "hash": "eb6b7c9db7d5d1d087448efe55ea54c3148ac654a243c3a96fa784758f823cfa"
+    },
+    {
+      "type": "folder",
+      "name": "app/Providers"
+    },
+    {
+      "type": "file",
+      "name": "app/Providers/AppServiceProvider.php",
+      "size": 561,
+      "hash": "5bcf77a0c0d37c2d7ce168389b6b7ee0326e182a8ff0e9922abde83a71881eec"
+    },
+    {
+      "type": "folder",
+      "name": "app/Traits"
+    },
+    {
+      "type": "file",
+      "name": "app/Traits/HasRolesPermissions.php",
+      "size": 403,
+      "hash": "53451a83018ae020cc67ab122cd314953db86a330e1d86a2e90409d2bcd9e194"
+    },
+    {
+      "type": "folder",
+      "name": "app/View"
+    },
+    {
+      "type": "folder",
+      "name": "app/View/Components"
+    },
+    {
+      "type": "file",
+      "name": "app/View/Components/AppLayout.php",
+      "size": 296,
+      "hash": "c57c4ac36e5603ca09b66674a3a01b427528948ecf1f7a93d06d52818d9319b5"
+    },
+    {
+      "type": "file",
+      "name": "app/View/Components/GuestLayout.php",
+      "size": 300,
+      "hash": "35663740cd39dc5f726b24e402babb41d0af62e09567c0e717235586fa3d9f80"
+    },
+    {
+      "type": "file",
+      "name": "artisan",
+      "size": 425,
+      "hash": "f91a517c0c5d3a904c3f390933964a5e08ec1fc68146882730daac4aca4ffcec"
+    },
+    {
+      "type": "folder",
+      "name": "bootstrap"
+    },
+    {
+      "type": "file",
+      "name": "bootstrap/app.php",
+      "size": 1075,
+      "hash": "1526d62e1ec22e137e40523da0869f43660d09f97b0a4f1e393b4ee411e2980b"
+    },
+    {
+      "type": "folder",
+      "name": "bootstrap/cache"
+    },
+    {
+      "type": "file",
+      "name": "bootstrap/cache/.gitignore",
+      "size": 14,
+      "hash": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "type": "file",
+      "name": "bootstrap/cache/packages.php",
+      "size": 1096,
+      "hash": "11be743b370e427c6b3e29a76efc3f0480b4b5b74171f76e44f8aab9794fff31"
+    },
+    {
+      "type": "file",
+      "name": "bootstrap/cache/services.php",
+      "size": 22211,
+      "hash": "b4eda5cd8ec3716889d542a400cf8809ae1f1855d25802db4f198a5bb9595e35"
+    },
+    {
+      "type": "file",
+      "name": "bootstrap/providers.php",
+      "size": 64,
+      "hash": "2ef405f988a6ef3f5222bfbdd89352a6ad7b2e9e21aa25e236ac5dff58358953"
+    },
+    {
+      "type": "file",
+      "name": "composer.json",
+      "size": 2984,
+      "hash": "74af2e393f67974a8ca4a888b755edf030a960604494f0f6373c8fb3244c9748"
+    },
+    {
+      "type": "file",
+      "name": "composer.lock",
+      "size": 351815,
+      "hash": "9dc4221dbe85c14387afc9e0fc99a1e34c6c1e1c28a46f258050034fcdb5c7aa"
+    },
+    {
+      "type": "folder",
+      "name": "config"
+    },
+    {
+      "type": "file",
+      "name": "config/app.php",
+      "size": 4281,
+      "hash": "7967e4f5675328bfc7059dfa76c5a0f11f980ca9b5e80cb0a582c525767d7f50"
+    },
+    {
+      "type": "file",
+      "name": "config/auth.php",
+      "size": 2311,
+      "hash": "6eafdac6b0482dab9b7d7e2238eff441b06dcf7e94f7fabcfb030a719b1094ad"
+    },
+    {
+      "type": "file",
+      "name": "config/cache.php",
+      "size": 3683,
+      "hash": "b8bcf382283330b94c0a602ff06452de819041ea709e28eea5065d51d1d7d085"
+    },
+    {
+      "type": "file",
+      "name": "config/database.php",
+      "size": 6980,
+      "hash": "c938ef8c61b165e653658e9b3b2e474ac1994664a13fa69bba1369a40170992d"
+    },
+    {
+      "type": "file",
+      "name": "config/filesystems.php",
+      "size": 2500,
+      "hash": "46b977d9555ed617aa0d42055a0c76a34c9d16c63ee634ff6683bc95712c9317"
+    },
+    {
+      "type": "file",
+      "name": "config/logging.php",
+      "size": 4327,
+      "hash": "d90f24826a3330437f2f2fc12bb28680abe1281d35d62b082c234f4b69873835"
+    },
+    {
+      "type": "file",
+      "name": "config/mail.php",
+      "size": 3614,
+      "hash": "825c4b149f2fe412a2e37199794e7c05df7ed86fb51811777faf80238f748aae"
+    },
+    {
+      "type": "file",
+      "name": "config/queue.php",
+      "size": 4199,
+      "hash": "6101774da7c8b79af46d0028f2b8b31a484c3f7eda10b76e5b27b6093ad364a4"
+    },
+    {
+      "type": "file",
+      "name": "config/services.php",
+      "size": 1039,
+      "hash": "8258c4487eb1d73a97e569eb0e411e3f25368044812df4cba807860432be1d92"
+    },
+    {
+      "type": "file",
+      "name": "config/session.php",
+      "size": 7848,
+      "hash": "12e3f94eb0653d2b44d754f0a8ef30f7ad5de7536ecb3382617dfebb6577c452"
+    },
+    {
+      "type": "folder",
+      "name": "database"
+    },
+    {
+      "type": "file",
+      "name": "database/.gitignore",
+      "size": 10,
+      "hash": "e758642d95e83e907e010b6e46b07b3f953c7cef11fe5ebefc2a77b9d7b4d5f7"
+    },
+    {
+      "type": "folder",
+      "name": "database/factories"
+    },
+    {
+      "type": "file",
+      "name": "database/factories/UserFactory.php",
+      "size": 1075,
+      "hash": "05c4cfa8e4dc7ebe659c66717b30ea6970f62d732a1bbce32b55650cccc6aa8d"
+    },
+    {
+      "type": "folder",
+      "name": "database/migrations"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/0001_01_01_000000_create_users_table.php",
+      "size": 1473,
+      "hash": "10d79883bc08ce46510f9ad8b1830b4d06d586dc56ae2c8bac3b3e491f69a90f"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/0001_01_01_000001_create_cache_table.php",
+      "size": 849,
+      "hash": "20f769d3c11748c1cc42c41cd3789b0b9b2cd0db44ee22d378addac3ff8aed4f"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/0001_01_01_000002_create_jobs_table.php",
+      "size": 1812,
+      "hash": "7c9c712adf4091c87bf2612f4d0dccdfa1df4501553e4ac068b83d7bd5462fa5"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_15_093556_create_cars_table.php",
+      "size": 1150,
+      "hash": "570da67a2df5d9386bdb1959644c366c1a1f08df49b6d25f0dadf4b696b1c3e7"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_15_093600_create_bookings_table.php",
+      "size": 1117,
+      "hash": "ce11e1f2b40d9b517b3123f51a23fc12c8205ff9b57a6eddadd11fa75dc10848"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_15_162746_add_role_to_users_table.php",
+      "size": 626,
+      "hash": "cdeff9196530e00dc8fb649732c917194a2a33184e8c78f7e3e1a706556d61a5"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_15_172507_add_soft_deletes_to_cars_table.php",
+      "size": 499,
+      "hash": "8d6fa091a63a6ce0cd49002774b9c869a73a912868e6537d8bb94c3b8c30dd95"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_15_202906_create_contacts_table.php",
+      "size": 771,
+      "hash": "17df57b583ab463002c3b87c93412fe6e430d8c06f6994a7dacbf719eb453197"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_16_100051_create_roles_table.php",
+      "size": 653,
+      "hash": "a6f3c4e0b5b6e53838d77a8c0474cd67a365dfea1a4e766a13c3a4adb5226679"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_16_100052_create_permissions_table.php",
+      "size": 539,
+      "hash": "2acec24c9a83c32efd27634c3ef9b8acf2d2469c8c3f9d4ee20f92d6a56198c7"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_16_100053_create_permission_role_table.php",
+      "size": 547,
+      "hash": "f663e6f810c8b01172b5bcc342f78aec8c50437cf6e5b32f0958151ab0060c92"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_16_100053_create_role_user_table.php",
+      "size": 627,
+      "hash": "ccc2d4f4529eead98004797e54aa08b71c62f3a5c06a4be5c3b5ea0d34dcc6d2"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_18_071957_add_images_to_cars_table.php",
+      "size": 688,
+      "hash": "27e6751eca93f7d8f8949f056495984b7258d8789936d296d446ff7b70f848bd"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_21_155541_change_year_to_string_in_cars_table.php",
+      "size": 2261,
+      "hash": "115ffcecb70ddc04ea36b2ab706680f5faede784906e62de6b5e36761c466cb4"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2025_11_30_140433_add_duration_to_bookings_table.php",
+      "size": 639,
+      "hash": "f4daad430f134718f74ff61f8636935e622302283daac76c25e1ddcbfaed9bd2"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2026_10_18_052457_add_category_to_cars_table.php",
+      "size": 610,
+      "hash": "3ff290626dd18855225c6529ea831d46c183dbb17dfcf02c74742f97bc5e8dd6"
+    },
+    {
+      "type": "file",
+      "name": "database/migrations/2026_10_18_061151_create_posts_table.php",
+      "size": 1777,
+      "hash": "3ff2870b61b903a282d69bd3fb262cf61a1ec8283530ab9cbda87071487af7ce"
+    },
+    {
+      "type": "folder",
+      "name": "database/seeders"
+    },
+    {
+      "type": "file",
+      "name": "database/seeders/AdminSeeder.php",
+      "size": 1089,
+      "hash": "19f03f1eceba4ee2b0f0f02972be426e3bb01d274e51d2a0f9580ef375a4ff56"
+    },
+    {
+      "type": "file",
+      "name": "database/seeders/BookingSeeder.php",
+      "size": 6453,
+      "hash": "0e4cf25d0f4feaaf06159ce17c7bb51e4d09083416531dc1367663e746150cb3"
+    },
+    {
+      "type": "file",
+      "name": "database/seeders/CarSeeder.php",
+      "size": 3001,
+      "hash": "9200a18fd5b4b2c02778b8d6e7ef64958f47eb5989cf563e4814fc516e358976"
+    },
+    {
+      "type": "file",
+      "name": "database/seeders/DatabaseSeeder.php",
+      "size": 467,
+      "hash": "b928a494dee4b51bba2972c3483fff2e8d6cbc16362bc54d8df3697be75b08a9"
+    },
+    {
+      "type": "file",
+      "name": "database/seeders/PostSeeder.php",
+      "size": 20841,
+      "hash": "9c736117dc67cb27347676827fcee29dcd371cc1fb133308dbe7418c8c03e433"
+    },
+    {
+      "type": "file",
+      "name": "database/seeders/RoleSeeder.php",
+      "size": 373,
+      "hash": "13b58bfae4b43937276a7a187e81ba873a7b84b76ef1f5d6a7ed60af5116a7a5"
+    },
+    {
+      "type": "file",
+      "name": "database/seeders/RolesPermissionsSeeder.php",
+      "size": 277,
+      "hash": "7dd7ec65fcfa6ee4d80eac96fd0e7dcbfc30281dc86c7ff1b29a235d11250ccf"
+    },
+    {
+      "type": "file",
+      "name": "package-lock.json",
+      "size": 153843,
+      "hash": "81ffa04e3e89fac94182859552727789c4748dbce9aa2e4bf0ca94336ce4125d"
+    },
+    {
+      "type": "file",
+      "name": "package.json",
+      "size": 613,
+      "hash": "957799d9789fe990184cc0bba7aeae9590739c64a141ff85ea091fc209619ae5"
+    },
+    {
+      "type": "file",
+      "name": "postcss.config.js",
+      "size": 93,
+      "hash": "c713dcb623f3a959b28f6e7f724440660f890288c7b796d8c9ce42372ee7f36b"
+    },
+    {
+      "type": "folder",
+      "name": "public"
+    },
+    {
+      "type": "file",
+      "name": "public/.htaccess",
+      "size": 740,
+      "hash": "b7e379c77639fd56144947dbae84c84eb466d9c686ea81f2f013ae85421da923"
+    },
+    {
+      "type": "folder",
+      "name": "public/assets"
+    },
+    {
+      "type": "file",
+      "name": "public/assets/logo.jpeg",
+      "size": 12384,
+      "hash": "881bd5f1c28063d5011591fc3f5d1331de7aada9ced89f6d085a907e4c6722e8"
+    },
+    {
+      "type": "file",
+      "name": "public/assets/logo2.png",
+      "size": 99594,
+      "hash": "d076493f5aa7656ea2f07e08d54c68ba0f0edaacb2ef510bdd82ac07959363fb"
+    },
+    {
+      "type": "file",
+      "name": "public/assets/og_image.jpg",
+      "size": 129469,
+      "hash": "350f8597913a38990ad0674c0437b03f1432c1a4b459ba0b3ad8a63fd7a85ca9"
+    },
+    {
+      "type": "file",
+      "name": "public/assets/rentgo.png",
+      "size": 102831,
+      "hash": "6d9afe921068cff098abe29f81c1760492d6113e7d22f496480ae9467b282983"
+    },
+    {
+      "type": "file",
+      "name": "public/assets/rentgo_cropped.png",
+      "size": 42718,
+      "hash": "a9160b631539f437b0efe77b18d03f88e8f2992ddf6c40992550cda864bef885"
+    },
+    {
+      "type": "file",
+      "name": "public/assets/rentgo_dark.png",
+      "size": 36641,
+      "hash": "28be1254efc47fa9c31b21f1f19beaa8d56bb17646c3f2e7a5b520ae835863f0"
+    },
+    {
+      "type": "file",
+      "name": "public/assets/rentgo_light.png",
+      "size": 42718,
+      "hash": "a9160b631539f437b0efe77b18d03f88e8f2992ddf6c40992550cda864bef885"
+    },
+    {
+      "type": "folder",
+      "name": "public/build"
+    },
+    {
+      "type": "folder",
+      "name": "public/build/assets"
+    },
+    {
+      "type": "file",
+      "name": "public/build/assets/app-ByW0VTRm.js",
+      "size": 80866,
+      "hash": "6a3f0ac8ff0efb33de43d2d45ead501b317e18b740543af7f165039b287f34d2"
+    },
+    {
+      "type": "file",
+      "name": "public/build/assets/app-CTQxHeW1.css",
+      "size": 87673,
+      "hash": "1d3e5bcb689125eda6880cd64821d0ea2d85fba8427f6acb0431883db3d3a62f"
+    },
+    {
+      "type": "file",
+      "name": "public/build/manifest.json",
+      "size": 331,
+      "hash": "4d5b6064a582ecda41a6c2e81996f59d9aa6bcd729c3d636b703ab72718aeefc"
+    },
+    {
+      "type": "file",
+      "name": "public/build.zip",
+      "size": 44195,
+      "hash": "08d4c9066bda077121452dbd0425add5eecf29916eb544aa447a794ae439a793"
+    },
+    {
+      "type": "file",
+      "name": "public/favicon.ico",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "type": "folder",
+      "name": "public/images"
+    },
+    {
+      "type": "file",
+      "name": "public/images/car_cockpit.jpg",
+      "size": 821892,
+      "hash": "1293319414f0c1ebdf6e886f54254a219a10cbbeabe67871293932ea15ef72cb"
+    },
+    {
+      "type": "file",
+      "name": "public/images/car_cockpit.webp",
+      "size": 133956,
+      "hash": "b65763024f2006fbd68a5afac1fa13718e03cdab030ebb8dcee6db6bef46caf8"
+    },
+    {
+      "type": "file",
+      "name": "public/images/cirebon_keraton_zenix.jpg",
+      "size": 275937,
+      "hash": "50a6c60f3b1285d0e113bc4f780693c3a3d0da7baa4f02b5e08dca4f7a01b9a0"
+    },
+    {
+      "type": "file",
+      "name": "public/images/cirebon_keraton_zenix.webp",
+      "size": 206526,
+      "hash": "42edddafd79b57792a95a56fbef5e2c12d2f52d639ed86139e7b49439efe250c"
+    },
+    {
+      "type": "file",
+      "name": "public/images/cirebon_toll_ciremai.webp",
+      "size": 99608,
+      "hash": "41542dc2199f6509432bdfc17ff1e396e5bf1b2c15685e1104a4544ca375f29f"
+    },
+    {
+      "type": "file",
+      "name": "public/images/experience_card_car.jpg",
+      "size": 824747,
+      "hash": "603442ec14fedc857bb8eeddc67d1459bb9600839230b1e18a69bc4e8e2fc069"
+    },
+    {
+      "type": "file",
+      "name": "public/images/experience_card_car.webp",
+      "size": 144354,
+      "hash": "a18a8ef2566d5ee43912683f63271c77505aaa98e86fcaa3f4ffda62a08150b6"
+    },
+    {
+      "type": "file",
+      "name": "public/images/hero_highway_car.jpg",
+      "size": 173747,
+      "hash": "5366bb73659e60c928f31ef0328d810e82310a65ea9cc7c0b2f43628196e140e"
+    },
+    {
+      "type": "file",
+      "name": "public/images/hero_highway_car.webp",
+      "size": 99608,
+      "hash": "41542dc2199f6509432bdfc17ff1e396e5bf1b2c15685e1104a4544ca375f29f"
+    },
+    {
+      "type": "file",
+      "name": "public/index.php",
+      "size": 543,
+      "hash": "eba77cba39695b6bd091fe5211d481f7ebb2ce2d8d26230b5a609465d0a4aff9"
+    },
+    {
+      "type": "file",
+      "name": "public/sitemap.xml",
+      "size": 5544,
+      "hash": "2b9423c4c2d751efcb63b14b48ae7941c28c067219c3d2039ed13a23144ca494"
+    },
+    {
+      "type": "folder",
+      "name": "resources"
+    },
+    {
+      "type": "folder",
+      "name": "resources/css"
+    },
+    {
+      "type": "file",
+      "name": "resources/css/app.css",
+      "size": 24348,
+      "hash": "3122a4d4971e4d25c9b88bba8e3b22e62b8a3ada4c04fc27b6a30755f662ad74"
+    },
+    {
+      "type": "folder",
+      "name": "resources/js"
+    },
+    {
+      "type": "file",
+      "name": "resources/js/app.js",
+      "size": 96,
+      "hash": "ef2d6f5db880db7aa4407c2d3930e6ca3c298ae19182aeceae5b4b889ff284f4"
+    },
+    {
+      "type": "file",
+      "name": "resources/js/bootstrap.js",
+      "size": 127,
+      "hash": "6fd9fc82e68fa915a882f4e227b9faacbe7bfd66cb953c628840e83bda6b72f4"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/admin"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/admin/bookings"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/bookings/create.blade.php",
+      "size": 13124,
+      "hash": "08e52e6fca9398f6111ab5ad16b19934d985db30b1019274485327b4df68a2f5"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/bookings/edit.blade.php",
+      "size": 13423,
+      "hash": "cbbf190a8b740e7d589462cb5437f9bd61f509a861b5351fab829730224e9556"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/bookings/index.blade.php",
+      "size": 43080,
+      "hash": "7a89541ccf4a5465ed15a1afc2e78c7452c4a8957b1ce52a133d6d0e86939264"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/bookings/show.blade.php",
+      "size": 14352,
+      "hash": "cf6316fd3f50fbdedd442435224a821a3d2a5c7e18514f28595e22bd54ca7a30"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/admin/cars"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/cars/create.blade.php",
+      "size": 19171,
+      "hash": "1e1de36d53eec63444d875e5c68eb1da7b212ecf869546e9af6a035e7d83371e"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/cars/edit.blade.php",
+      "size": 19222,
+      "hash": "eb2b44fbcac7d176a992acf48b7b4ccf1c08a867f6b49f70c6130f5298ec7f5a"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/cars/index.blade.php",
+      "size": 44145,
+      "hash": "1ec0ee91d187e3fe9cc227225c76152c3b4c1ccf534ebfdc1eb3dbe2bd333d08"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/cars/show.blade.php",
+      "size": 15628,
+      "hash": "1ef0ed42cb80fe903677eadaf89b54862e986904febaebf014039ebe1bdf7a43"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/cars/trashed.blade.php",
+      "size": 10879,
+      "hash": "e58f2b6b3e3c57092c5b1cd9831a802e1fba0d141084ce742aaec2dfb67d6be2"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/admin/contacts"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/contacts/index.blade.php",
+      "size": 37637,
+      "hash": "7ff4f8dc83ac54a5088c511e096b1181ffb245082a53ef60489b0d71df39e2db"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/contacts/show.blade.php",
+      "size": 20281,
+      "hash": "08dc0471b11db24ff5a42e5d3f7bc10ed8b889d5737e3894f34672424d559d13"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/dashboard.blade.php",
+      "size": 37742,
+      "hash": "b93dd292e1a84f670dcf41ffcf2454d52d2fa6529dd5dee72ef0cb3d360ff352"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/admin/posts"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/posts/create.blade.php",
+      "size": 76885,
+      "hash": "f75712e5546b40dc5e8ac1d0393feeadf830c149286c5aa26f963bf1e70e10e1"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/posts/edit.blade.php",
+      "size": 76973,
+      "hash": "92774f8f8c2d522752e4ae9c04edfe3f7a9c5573e329f736edcd2211a3fbe070"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/posts/index.blade.php",
+      "size": 23643,
+      "hash": "24dc2df098ca2bbdcb52d6530430b7fb3947a078085c17bba49f0f7bdf91ad09"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/admin/reports"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/reports/index.blade.php",
+      "size": 48999,
+      "hash": "ac839b0dda263b9d4c714e23980afd51aef902c83b53e3af3bd05e4fe9cf7c78"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/admin/reports/pdf.blade.php",
+      "size": 18358,
+      "hash": "d510e0b25ad3fe95d8828a1b7c7026c7ff62383fd05a549d6bfcb45e33a19381"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/auth"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/auth/confirm-password.blade.php",
+      "size": 886,
+      "hash": "9ece17ff21c1386fffb358c88840633a1cd1310646f1bac1cdea8ce644bddac6"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/auth/forgot-password.blade.php",
+      "size": 981,
+      "hash": "125ad1d6cb5abb68b99edc7609503f8d12fca9583dcc1f612a2466866a68701e"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/auth/login.blade.php",
+      "size": 14464,
+      "hash": "bc8609bdaa536d2f219c293a731ba7b06a013cf0f612da84be6040d1e07d7939"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/auth/register.blade.php",
+      "size": 2183,
+      "hash": "d12a7e688c3ea2d7d418a0cf2fb32978921ac280e3063f751260423081d75c6a"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/auth/reset-password.blade.php",
+      "size": 1646,
+      "hash": "5538223153ebf6c589639ca7c089093f5b91d9edb2eff781d4d4b536d11ef753"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/auth/verify-email.blade.php",
+      "size": 1246,
+      "hash": "f20f99b5f219c7a45317030110b4fd8c3187d04d0273259bf6e81944d91ccd3b"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/components"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/application-logo.blade.php",
+      "size": 3045,
+      "hash": "ad0b1c3fa2a891293a2ae718b41a10879d53e88d26f892a20db2774c6661fc60"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/auth-session-status.blade.php",
+      "size": 160,
+      "hash": "380b89ba08f51ff4c48c0800a841184fd7d9eebab702803ceb1d2bffb58e5ba8"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/chatbot.blade.php",
+      "size": 13073,
+      "hash": "68cf918bc64e1f9b7213ffd289bd638d700625c52ae61a4e0c7858d5be1fb69e"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/danger-button.blade.php",
+      "size": 380,
+      "hash": "fe2ecafdfdf06bb56590382d6d7d225ab379bd6780fad24e3acc86477b0c082d"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/dropdown-link.blade.php",
+      "size": 217,
+      "hash": "f9efed8927f37b4b1afca34af9924296ba4a85350e77cdbfc26c340c06cd955d"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/dropdown.blade.php",
+      "size": 1244,
+      "hash": "d8d952c42a7f7e0c02e515ff3ceac49e5305a4499402ce0e4e6988cfbacbb026"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/input-error.blade.php",
+      "size": 241,
+      "hash": "69bf80900ce564877e82ca3736a2336549a92afb8650a065be9050a94a599733"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/input-label.blade.php",
+      "size": 143,
+      "hash": "ae90330137ff955f0717de778bd134622926f67807339dda043d27ed2c42da69"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/modal.blade.php",
+      "size": 3205,
+      "hash": "0de169405687f6e304d739b73dcdb87a86c44942ab668129bb0e1ffe13abc767"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/nav-link.blade.php",
+      "size": 605,
+      "hash": "68dd26a311758ea91cd58c4eb5b495929b0b64788b486429d92e34922bfd700a"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/primary-button.blade.php",
+      "size": 404,
+      "hash": "48d3a3b0d0e12960450b6ac3c15d1de54f73e67f2af10e92c5e2b1d5a3a54af5"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/responsive-nav-link.blade.php",
+      "size": 688,
+      "hash": "0ad49bc6202148f9a914d5379154c25f27b43149a0ed2774f38e3047a57e907b"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/secondary-button.blade.php",
+      "size": 393,
+      "hash": "52266b595818c878ca31ac1c3a3c1ada0977a0e0fb71a9db7da9fb215e5a8932"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/components/text-input.blade.php",
+      "size": 184,
+      "hash": "c0609f835d26f47c2c6235b9f845a19fbc29f288b95e4b572c8d0feb5710ee97"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/dashboard.blade.php",
+      "size": 513,
+      "hash": "062ddb4dc3e77516e3a3aac11a9e7c2ff6dcdb8b9b3dad1d68fe076a900503b7"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/landing"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/landing/about.blade.php",
+      "size": 23105,
+      "hash": "f7c153f7273713fa32ececea33f68acd0a395f1f9dc0b4761dcc3623fe1684af"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/landing/blog"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/landing/blog/index.blade.php",
+      "size": 28900,
+      "hash": "fa6a507515387e0045b4c79dc345f1b613b8a5bc43a8d0f7123c7d513964a7b1"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/landing/blog/show.blade.php",
+      "size": 31656,
+      "hash": "a8ac65a0454b58d14d3e8b1fbbc8fb9f583a6a9d0b0630132f8f8674ae75e041"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/landing/contact.blade.php",
+      "size": 23561,
+      "hash": "6b8b90237bc28ed5fce38f6364f27ca9a5d453e03e78c460e782eb9572eb39c4"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/landing/detail.blade.php",
+      "size": 21941,
+      "hash": "b060aa8302dcd9955fed206e0335b634fa35a8c4db47b3713051428dfa8fc3d8"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/landing/home.blade.php",
+      "size": 84669,
+      "hash": "eb7f20fb798e52d16eb10241c20ae31bf18a3b32af72f6955a59c5ba9c028685"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/landing/pricing.blade.php",
+      "size": 23772,
+      "hash": "c0f4cfada40cd4113c1301d7de613d72085efba0aa05761c400c11afb015c385"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/layouts"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/layouts/admin.blade.php",
+      "size": 42284,
+      "hash": "fdbce0509771487215f012a360d94a88efca042da34785d32197fbf0bd857a1f"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/layouts/app.blade.php",
+      "size": 31999,
+      "hash": "4ae7f2d752a89929b29a332cd542d199c923b928640aab670eeced852aa0777f"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/layouts/guest.blade.php",
+      "size": 1376,
+      "hash": "308c06c0fc05a011fcd9056b05572d99aba44d30311800ba1d1e386686de27ad"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/layouts/navigation.blade.php",
+      "size": 5013,
+      "hash": "c571eec74a63da697a8302f98cade89d74798b9177dedcee7d392e974e859f88"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/profile"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/profile/edit.blade.php",
+      "size": 969,
+      "hash": "37eecd8407f2580b41e7c8533eeefebfeef9070317f9ac924607aa32a4f0f001"
+    },
+    {
+      "type": "folder",
+      "name": "resources/views/profile/partials"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/profile/partials/delete-user-form.blade.php",
+      "size": 2140,
+      "hash": "7d2991ebd38ee627620c6a95a7f58cc5b4c408fa279e460d108baa7663bee33c"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/profile/partials/update-password-form.blade.php",
+      "size": 2118,
+      "hash": "1838f20b3d1b16c8d85ac4d3a87c2e7dd940a8b2484d68463a01b242f891cd98"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/profile/partials/update-profile-information-form.blade.php",
+      "size": 2674,
+      "hash": "bb9a00ce8885915857508106b5451ff69a809c09d05c8bf5ac6752f1e4e3d58f"
+    },
+    {
+      "type": "file",
+      "name": "resources/views/welcome.blade.php",
+      "size": 82568,
+      "hash": "e50e41602994840b788471625fec54a4db6138ec971be05cfdfba40daf906c22"
+    },
+    {
+      "type": "folder",
+      "name": "routes"
+    },
+    {
+      "type": "file",
+      "name": "routes/auth.php",
+      "size": 2360,
+      "hash": "ae97a0c4ed28bd79ac0ff8c3a11539489518e1da4f17a3cf7a2b606b96dfd765"
+    },
+    {
+      "type": "file",
+      "name": "routes/console.php",
+      "size": 210,
+      "hash": "9adccc33e7dd400683e434774077c7fdb2f299c5712cedf16a43fdf56f2850fa"
+    },
+    {
+      "type": "file",
+      "name": "routes/web.php",
+      "size": 10337,
+      "hash": "d11b205f892122c43a3a787f25f35b9bfdced6aede5eecbdd01c4e3295b327f9"
+    },
+    {
+      "type": "folder",
+      "name": "storage"
+    },
+    {
+      "type": "folder",
+      "name": "storage/app"
+    },
+    {
+      "type": "file",
+      "name": "storage/app/.gitignore",
+      "size": 33,
+      "hash": "993b9e3709d7b5189da331725d1169d79e561a509db2490b722b525073d2d976"
+    },
+    {
+      "type": "folder",
+      "name": "storage/app/private"
+    },
+    {
+      "type": "file",
+      "name": "storage/app/private/.gitignore",
+      "size": 14,
+      "hash": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "type": "folder",
+      "name": "storage/framework"
+    },
+    {
+      "type": "file",
+      "name": "storage/framework/.gitignore",
+      "size": 119,
+      "hash": "2d452d65596636197757afa17df52331c84da7bb74ee0f3462fd5be4eb6afdc6"
+    },
+    {
+      "type": "folder",
+      "name": "storage/framework/cache"
+    },
+    {
+      "type": "file",
+      "name": "storage/framework/cache/.gitignore",
+      "size": 21,
+      "hash": "32f79194633ddb34f013c6ee8819d112104ff822357adf308ec385b46a7f42f6"
+    },
+    {
+      "type": "folder",
+      "name": "storage/framework/testing"
+    },
+    {
+      "type": "file",
+      "name": "storage/framework/testing/.gitignore",
+      "size": 14,
+      "hash": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "type": "file",
+      "name": "tailwind.config.js",
+      "size": 3227,
+      "hash": "b350e66eac6d31b2fca0d1887c8bc33d116eaee24465bd66e3b93b5efc887aee"
+    },
+    {
+      "type": "file",
+      "name": "vite.config.js",
+      "size": 263,
+      "hash": "b79dffc57362f908a5f6a451c4c4bc1543a7f43b596300691f754f5c8b320312"
+    }
+  ]
+}
