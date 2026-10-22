@@ -31,9 +31,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          # Jalur root cPanel (sesuai direktori public_html akun FTP kamu)
           server-dir: /public_html/
-          # Kecualikan vendor & file dinamis agar upload cepat & stabil
           exclude: |
             **/.git*
             **/.git*/**
@@ -52,3 +50,11 @@ jobs:
             storage/framework/sessions/*
             storage/framework/views/*
             storage/app/public/**
+
+      # LANGKAH OTOMATISASI:
+      - name: ⚡ 5. Auto Migrate & Clear Cache on cPanel
+        run: |
+          echo "Menjalankan migrasi database otomatis..."
+          curl -s -G --data-urlencode "key=${{ secrets.APP_KEY }}" --data-urlencode "action=migrate" https://rentgoindonesia.com/cpanel-artisan
+          echo "Membersihkan & memperbarui cache Laravel..."
+          curl -s -G --data-urlencode "key=${{ secrets.APP_KEY }}" --data-urlencode "action=optimize-clear" https://rentgoindonesia.com/cpanel-artisan
