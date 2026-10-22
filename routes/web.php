@@ -198,3 +198,49 @@ if (app()->environment('local')) {
         })->name('debug.routes');
     });
 }
+
+/*
+|--------------------------------------------------------------------------
+| CPANEL ARTISAN HELPER (UNTUK HOSTING TANPA TERMINAL)
+|--------------------------------------------------------------------------
+| Menjalankan perintah artisan esensial via browser secara aman.
+| Wajib menyertakan parameter key yang cocok dengan APP_KEY di .env
+| Contoh pemakaian:
+| https://domainkamu.com/cpanel-artisan?key=base64:xxx&action=storage-link
+*/
+Route::get('/cpanel-artisan', function (\Illuminate\Http\Request $request) {
+    $secret = (string) $request->query('key');
+    $appKey = (string) config('app.key');
+
+    if (empty($secret) || empty($appKey) || !hash_equals($appKey, $secret)) {
+        abort(403, 'Akses ditolak: Kunci rahasia (key) tidak cocok dengan APP_KEY.');
+    }
+
+    $action = $request->query('action', 'storage-link');
+
+    return match ($action) {
+        'storage-link' => (function () {
+            \Illuminate\Support\Facades\Artisan::call('storage:link');
+            $output = \Illuminate\Support\Facades\Artisan::output();
+            return '<h3>Storage Link:</h3><pre>' . e($output ?: 'Storage symlink berhasil dibuat / sudah ada.') . '</pre>';
+        })(),
+        'migrate' => (function () {
+            \Illuminate\Support\Facades\Artisan::call('migrate', ['--force' => true]);
+            return '<h3>Database Migration:</h3><pre>' . e(\Illuminate\Support\Facades\Artisan::output()) . '</pre>';
+        })(),
+        'optimize-clear' => (function () {
+            \Illuminate\Support\Facades\Artisan::call('optimize:clear');
+            return '<h3>Cache Cleared:</h3><pre>' . e(\Illuminate\Support\Facades\Artisan::output()) . '</pre>';
+        })(),
+        'optimize' => (function () {
+            \Illuminate\Support\Facades\Artisan::call('optimize');
+            return '<h3>Optimized (Config, Routes, Views):</h3><pre>' . e(\Illuminate\Support\Facades\Artisan::output()) . '</pre>';
+        })(),
+        default => 'Aksi tidak dikenal. Pilihan parameter:<br>'
+            . '- <code>?key=...&action=storage-link</code><br>'
+            . '- <code>?key=...&action=migrate</code><br>'
+            . '- <code>?key=...&action=optimize-clear</code><br>'
+            . '- <code>?key=...&action=optimize</code>',
+    };
+})->name('cpanel.artisan');
+
